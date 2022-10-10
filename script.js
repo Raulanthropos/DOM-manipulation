@@ -18,10 +18,17 @@ const addCssClass = function() {                                 //10
 
 const toggleClass = function() {                                //11
    let element = document.querySelectorAll(`img`);
-    element.classList.toggle("mystyle";)
+    element.classList.toggle("mystyle");
 }
 
 const colorPrice = function() {                                 //12
     const price = document.querySelectorAll(".price");
     price.style = "color: red";
 }
+
+changeH1();
+changeBckColor();
+changeFooter();
+addCssClass();
+toggleClass();
+colorPrice();
